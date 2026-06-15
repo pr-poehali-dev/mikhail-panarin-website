@@ -18,14 +18,15 @@ const Hero = () => {
       <div className="container relative z-10">
         <div className="max-w-2xl animate-fade-up">
           <p className="text-primary uppercase tracking-luxe text-sm mb-6">
-            Пианист · Композитор
+            Музыкант · Поэт
           </p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl leading-[1.05] text-foreground mb-8">
             Михаил<br />Панарин
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
-            Музыка как точная форма мысли. Концертные программы, авторские
-            сочинения и сотрудничество на уровне больших сцен.
+            Я пишу о том, что чувствую сам: о любви, которая лечит, о разлуке,
+            что делает нас сильнее, о надежде, что согревает даже в самую
+            долгую ночь.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button
