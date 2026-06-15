@@ -1,11 +1,5 @@
 import Icon from '@/components/ui/icon';
-
-const socials = [
-  { icon: 'Youtube', href: '#' },
-  { icon: 'Instagram', href: '#' },
-  { icon: 'Send', href: '#' },
-  { icon: 'Music2', href: '#' },
-];
+import { socials } from './socials';
 
 const Footer = () => {
   return (
@@ -17,10 +11,12 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             {socials.map((s) => (
               <a
-                key={s.icon}
+                key={s.label}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-                aria-label={s.icon}
+                aria-label={s.label}
               >
                 <Icon name={s.icon} size={18} />
               </a>

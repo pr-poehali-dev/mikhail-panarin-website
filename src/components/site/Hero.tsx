@@ -1,4 +1,5 @@
 import Icon from '@/components/ui/icon';
+import { socials } from './socials';
 
 const HERO_IMG =
   'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/bucket/039fe78a-0719-426d-b805-2edc3306dc0b.png';
@@ -42,6 +43,21 @@ const Hero = () => {
             >
               Сотрудничество
             </button>
+          </div>
+
+          <div className="flex items-center gap-4 mt-12">
+            {socials.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.label}
+                className="w-11 h-11 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+              >
+                <Icon name={s.icon} size={18} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
