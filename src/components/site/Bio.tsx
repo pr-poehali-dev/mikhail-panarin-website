@@ -2,10 +2,12 @@ const PIANO_IMG =
   'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/files/bbba2dc2-f42d-4296-a4e4-94b67fc05340.jpg';
 
 const facts = [
-  { value: '20+', label: 'лет на сцене' },
-  { value: '300+', label: 'концертов' },
-  { value: '15', label: 'стран гастролей' },
-  { value: '4', label: 'авторских альбома' },
+  { value: '2', label: 'года на сцене' },
+  { value: '5', label: 'концертов в Москве' },
+  { value: '3', label: 'книги' },
+  { value: '350', label: 'авторских стихов' },
+  { value: '85', label: 'авторских песен' },
+  { value: '2', label: 'авторских альбома' },
 ];
 
 const Bio = () => {
@@ -41,7 +43,7 @@ const Bio = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mt-12 pt-10 border-t border-border">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mt-12 pt-10 border-t border-border">
               {facts.map((f) => (
                 <div key={f.label}>
                   <div className="font-display text-4xl text-primary mb-1">{f.value}</div>
