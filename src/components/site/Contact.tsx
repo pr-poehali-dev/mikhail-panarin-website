@@ -56,13 +56,13 @@ const Contact = () => {
 
             <div className="space-y-5">
               <a
-                href="mailto:info@panarin-music.ru"
+                href="mailto:i@panarin-top.ru"
                 className="flex items-center gap-4 text-foreground hover:text-primary transition-colors"
               >
                 <span className="w-11 h-11 rounded-full border border-border flex items-center justify-center flex-shrink-0">
                   <Icon name="Mail" size={18} />
                 </span>
-                info@panarin-music.ru
+                i@panarin-top.ru
               </a>
               <a
                 href="tel:+70000000000"
