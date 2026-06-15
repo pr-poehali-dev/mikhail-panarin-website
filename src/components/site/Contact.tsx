@@ -65,13 +65,13 @@ const Contact = () => {
                 i@panarin-top.ru
               </a>
               <a
-                href="tel:+70000000000"
+                href="tel:+79105550209"
                 className="flex items-center gap-4 text-foreground hover:text-primary transition-colors"
               >
                 <span className="w-11 h-11 rounded-full border border-border flex items-center justify-center flex-shrink-0">
                   <Icon name="Phone" size={18} />
                 </span>
-                +7 (000) 000-00-00
+                +7 (910) 555-02-09
               </a>
               <div className="flex items-center gap-4 text-foreground">
                 <span className="w-11 h-11 rounded-full border border-border flex items-center justify-center flex-shrink-0">
