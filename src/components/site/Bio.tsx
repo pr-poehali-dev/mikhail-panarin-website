@@ -1,5 +1,5 @@
 const PIANO_IMG =
-  'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/files/bbba2dc2-f42d-4296-a4e4-94b67fc05340.jpg';
+  'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/bucket/05cd05bf-efef-4516-ac89-65f1e38c37f7.png';
 
 const facts = [
   { value: '2', label: 'года на сцене' },
@@ -18,7 +18,7 @@ const Bio = () => {
           <div className="relative">
             <img
               src={PIANO_IMG}
-              alt="Рояль на сцене"
+              alt="Михаил Панарин"
               className="w-full aspect-[4/5] object-cover"
             />
             <div className="absolute -bottom-6 -right-6 hidden md:block border border-primary/40 w-40 h-40" />

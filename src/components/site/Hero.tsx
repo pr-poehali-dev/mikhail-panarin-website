@@ -1,7 +1,7 @@
 import Icon from '@/components/ui/icon';
 
 const HERO_IMG =
-  'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/files/765ea4ef-5f7b-4828-a773-aaacfc411062.jpg';
+  'https://cdn.poehali.dev/projects/e5e6fbe1-db72-4349-90ef-68932761ac69/bucket/039fe78a-0719-426d-b805-2edc3306dc0b.png';
 
 const Hero = () => {
   const scrollTo = (id: string) =>
@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={HERO_IMG} alt="Михаил Панарин" className="w-full h-full object-cover object-center" />
+        <img src={HERO_IMG} alt="Михаил Панарин" className="w-full h-full object-cover object-[75%_center]" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/40" />
       </div>
