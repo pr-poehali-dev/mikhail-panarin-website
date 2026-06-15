@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "name": "Создание заявки на сотрудничество",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Иван Иванов",
+        "contact": "ivan@example.com",
+        "request_type": "Концерт",
+        "message": "Хотим пригласить вас на выступление"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {"success": true},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Ошибка при пустых полях",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "", "contact": "", "message": ""},
+      "expectedStatus": 400,
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "CORS preflight",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}
