@@ -5,7 +5,6 @@ const links = [
   { id: 'home', label: 'Главная' },
   { id: 'bio', label: 'Биография' },
   { id: 'music', label: 'Музыка' },
-  { id: 'gallery', label: 'Галерея' },
   { id: 'blog', label: 'Блог' },
   { id: 'contact', label: 'Контакты' },
 ];

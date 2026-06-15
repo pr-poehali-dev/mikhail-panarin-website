@@ -3,7 +3,6 @@ import Hero from '@/components/site/Hero';
 import Bio from '@/components/site/Bio';
 import Quote from '@/components/site/Quote';
 import Music from '@/components/site/Music';
-import Gallery from '@/components/site/Gallery';
 import Blog from '@/components/site/Blog';
 import Contact from '@/components/site/Contact';
 import Footer from '@/components/site/Footer';
@@ -17,7 +16,6 @@ const Index = () => {
         <Bio />
         <Quote />
         <Music />
-        <Gallery />
         <Blog />
         <Contact />
       </main>
